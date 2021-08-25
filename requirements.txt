@@ -1,0 +1,9 @@
+keyboard
+pywin32~=301
+pypiwin32~=223
+opencv-python~=4.5.3.56
+pynput~=1.7.3
+imagehash~=4.2.1
+pytest
+numpy~=1.21.2
+Pillow~=8.3.1
