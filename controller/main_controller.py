@@ -28,15 +28,17 @@ class main_controller(object):
         self._game_count = 0
         while self._looping:
             self._view.click_enter()
-            time.sleep(2)
+            time.sleep(1)
             self._view.select_level()
-            time.sleep(2)
+            time.sleep(1)
             self._view.click_add_speed()
-            time.sleep(60)
-            self._view.click_back()
-            self._view.click_sale()
             time.sleep(2)
+            self._view.click_back()
+            # time.sleep(1)
+            self._view.click_sale()
+            time.sleep(1)
             self._game_count += 1
+            print("====>\t 第{}场".format(self._game_count))
 
     def system_exit(self):
         self._looping = False

@@ -23,3 +23,6 @@ def test_select_level():
 
 def test_click_sale():
     main_view().click_sale()
+
+def test_w_click():
+    main_view().double_click()
